@@ -1,0 +1,147 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="themes/ecmoban_yemaijiu/qq/images/qq.css" rel="stylesheet" type="text/css" />
+<script language='javascript' src='themes/ecmoban_yemaijiu/qq/ServiceQQ.js' type='text/javascript' charset='utf-8'></script>
+<script type="text/javascript">
+var process_request = "{$lang.process_request}";
+</script>
+ 
+
+
+
+
+<div class="block clearfix" style="position:relative; z-index:999999999; height:90px;">
+
+<div id="topNav" class="clearfix">
+
+<div class="f_l">
+      {insert_scripts files='transport.js,utils.js'}
+   <font id="ECS_MEMBERZONE">{* ECSHOP 提醒您：根据用户id来调用member_info.lbi显示不同的界面  *}{insert name='member_info'} </font>
+</div>
+   
+<div class="f_r">
+   <!--{if $navigator_list.top}-->
+
+    <!-- {foreach name=nav_top_list from=$navigator_list.top item=nav} -->
+        <a href="{$nav.url}" <!-- {if $nav.opennew eq 1} --> target="_blank" <!-- {/if} -->>{$nav.name}</a>
+          
+             |
+      
+    <!-- {/foreach} -->   
+    <!-- {/if} --> <span style=" padding-left:6px">热线电话 400 820 8060</span>
+</div>
+   </div>
+   
+   <div style=" clear:both"></div>
+
+ <div class="f_l" ><a href="../index.php" name="top"><img src="../images/logo.gif" /></a></div>
+ <div class="f_r log">
+ 
+ 
+ 
+ 
+ 
+ <div class="buy_car_bg_box" style="float:right; padding-top:10px;">  
+ 
+<div class="buy_car_bg " id="ECS_CARTINFO" onmouseover="this.className='buy_car_bg ul1_on'" onmouseout="this.className='buy_car_bg'">
+ 
+ <a style="color:#cc0000" href="flow.php">{insert name='cart_info'}</a>
+
+</div>  <a   href="flow.php"> <img src="../images/jiesuan.gif"></a>
+</div>
+
+
+
+
+ <div class="log_l">
+    
+   <img src="../images/header_t.gif">
+ </div>
+ 
+
+
+
+
+
+
+ </div>
+ 
+ 
+ 
+ 
+</div>
+
+<div  class="blank"></div>
+
+
+
+
+<div id="mainNav" class="clearfix">
+<div class="block">
+
+
+<ul>
+  <a class="a1" href="../index.php" {if $navigator_list.config.index eq 1} id="cur"{/if}>{$lang.home} </a>
+ </ul> 
+ 
+    
+  <!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav} -->
+   
+  <img class="f_l" src="../images/meun_line.gif">
+  <ul>
+  <a  class="a1"  href="{$nav.url}" {if $nav.opennew eq 1}target="_blank" {/if} {if $nav.active eq 1} id="cur"{/if}>{$nav.name}</a>
+  
+  </ul> 
+ <!-- {/foreach} -->
+  
+   
+ 
+ 
+
+<form id="searchForm" name="searchForm" method="get" action="search.php" onSubmit="return checkSearchForm()"  >
+   <input name="keywords" type="text" id="keyword"   value="{$search_keywords|escape}"      class="B_input"/>
+   <input name="imageField" type="submit" value="" class="go" style="cursor:pointer;" />
+  
+   </form>
+</div>
+ </div>
+<div id="search"  class="clearfix">
+<div class="block">
+         
+  <div class="keys_l f_l">
+   <script type="text/javascript">
+    {literal}
+    <!--
+    function checkSearchForm()
+    {
+        if(document.getElementById('keyword').value)
+        {
+            return true;
+        }
+        else
+        {
+           alert("{$lang.no_keywords}");
+            return false;
+        }
+    }
+    -->
+    {/literal}
+    </script>
+    {if $searchkeywords}
+ 
+   {foreach from=$searchkeywords item=val}
+   <a href="search.php?keywords={$val|escape:url}">{$val}</a>
+  
+   {/foreach} 
+   {/if}
+  </div>
+  
+ 
+  
+  
+  
+</div>
+ </div>
+<!--search end-->
+
+
+
