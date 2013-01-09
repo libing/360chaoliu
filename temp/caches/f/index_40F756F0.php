@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:12:{i:0;s:59:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/index.dwt";i:1;s:73:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/page_header.lbi";i:2;s:70:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/index_ad.lbi";i:3;s:72:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/index_tree.lbi";i:4;s:74:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/new_articles.lbi";i:5;s:73:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/ad_position.lbi";i:6;s:76:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/recommend_best.lbi";i:7;s:75:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/recommend_new.lbi";i:8;s:75:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/recommend_hot.lbi";i:9;s:71:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/cat_goods.lbi";i:10;s:66:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/help.lbi";i:11;s:73:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/page_footer.lbi";}s:7:"expires";i:1357549756;s:8:"maketime";i:1357546156;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:12:{i:0;s:59:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/index.dwt";i:1;s:73:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/page_header.lbi";i:2;s:70:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/index_ad.lbi";i:3;s:72:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/index_tree.lbi";i:4;s:74:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/new_articles.lbi";i:5;s:73:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/ad_position.lbi";i:6;s:76:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/recommend_best.lbi";i:7;s:75:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/recommend_new.lbi";i:8;s:75:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/recommend_hot.lbi";i:9;s:71:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/cat_goods.lbi";i:10;s:66:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/help.lbi";i:11;s:73:"D:/xampp/htdocs/360chaoliu/themes/ecmoban_mbaobao/library/page_footer.lbi";}s:7:"expires";i:1357721903;s:8:"maketime";i:1357718303;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -178,14 +178,16 @@ scrollAmount=3><U><FONT color=red>
    
     <div class="box clearfix">
     <div style="float:left; width:700px;">
-       <div class="index_ad">
+        
+<div class="index_ad">
   <script type="text/javascript">
   var swf_width=698;
   var swf_height=338;
   </script>
   <script type="text/javascript" src="data/flashdata/dynfocus/cycle_image.js"></script>
 </div>
- <div class="blank"></div>       
+ <div class="blank"></div>
+       
        
        
        
@@ -252,7 +254,8 @@ scrollAmount=3><U><FONT color=red>
        
          
      
-</div>        </div>
+</div>
+        </div>
        <div style="float:right; width:250px;">
         <div id="mallNews"    class="  box_1">
     <h3><span>新闻快讯</span></h3>
@@ -569,5 +572,6 @@ scrollAmount=3><U><FONT color=red>
  &copy; 2005-2013 ECSHOP 版权所有，并保留所有权利。<br />
                                                                                      <br />
        </div>
-</div></body>
+</div>
+</body>
 </html>
